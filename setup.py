@@ -17,6 +17,9 @@ setup(
         'jupyter': [
             'ipython',  # basic notebook
             'tqdm',  # progress bar (optional)
+        ],
+        'examples': [
+            'tral >= 0.3',  # examples rely on tral
         ]
     }
 )
